@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/jamhacks-project/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/jamhacks-project/static/js/main.8b5f9b58.chunk.js",
+    "main.js.map": "/jamhacks-project/static/js/main.8b5f9b58.chunk.js.map",
+    "runtime-main.js": "/jamhacks-project/static/js/runtime-main.3a4daf8a.js",
+    "runtime-main.js.map": "/jamhacks-project/static/js/runtime-main.3a4daf8a.js.map",
+    "static/js/2.d10a9d25.chunk.js": "/jamhacks-project/static/js/2.d10a9d25.chunk.js",
+    "static/js/2.d10a9d25.chunk.js.map": "/jamhacks-project/static/js/2.d10a9d25.chunk.js.map",
+    "static/js/3.35ab18ca.chunk.js": "/jamhacks-project/static/js/3.35ab18ca.chunk.js",
+    "static/js/3.35ab18ca.chunk.js.map": "/jamhacks-project/static/js/3.35ab18ca.chunk.js.map",
+    "index.html": "/jamhacks-project/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/jamhacks-project/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.d10a9d25.chunk.js.LICENSE.txt": "/jamhacks-project/static/js/2.d10a9d25.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/jamhacks-project/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a4daf8a.js",
+    "static/js/2.d10a9d25.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.8b5f9b58.chunk.js"
+  ]
+}
