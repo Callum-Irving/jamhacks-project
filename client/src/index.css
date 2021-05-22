@@ -1,13 +1,46 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+		'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+		'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: var(--bg-color);
+	color: var(--text-color);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+:root {
+	--bg-color: rgb(32, 32, 32, 1);
+	--text-color: rgba(219, 224, 229, 1);
+	--text-soft-color: rgba(183, 188, 194, 1);
+	--text-strong-color: rgba(187, 187, 187, 1);
+	--subtle-color: rgba(32, 37, 42, 1);
+	--border-color: rgba(36, 50, 61, 1);
+	--shadow-color: rgba(0, 0, 0, 1);
+	--input-color: rgba(28, 28, 28, 1);
+	--outline-color: rgba(188, 140, 214, 1);
+	--mark-color: rgba(175, 115, 205, 0.08);
+	--special-color: rgba(175, 115, 205, 1);
+	--special-bg-color: rgba(132, 74, 160, 1);
+	--special-text-color: rgba(225, 222, 228, 1);
+	--special-shadow-color: rgba(35, 27, 40, 1);
+	--special-mark-color: rgba(225, 222, 228, 0.08);
+	--light-color: rgba(224, 205, 237, 1);
+	--dark-color: rgba(60, 49, 66, 1);
+	--text-color-rgb: 219, 224, 229;
+	--bg-color-rgb: 32, 32, 32;
+	--subtle-color-rgb: 32, 37, 42;
+	--special-color-rgb: 175, 115, 205;
+	--special-text-color-rgb: 225, 222, 228;
+	--special-bg-color-rgb: 132, 74, 160;
+	--shadow-color-rgb: 0, 0, 0;
+	--special-shadow-color-rgb: 35, 27, 40;
+	--outline-color-rgb: 188, 140, 214;
+	--dark-color-rgb: 60, 49, 66;
+	--light-color-rgb: 224, 205, 237;
 }
