@@ -10,7 +10,7 @@ class Categories extends React.Component {
 	}
 
 	componentDidMount = async () => {
-		fetch('http://localhost:5000/api/getposts')
+		fetch('https://tutorial-roach.herokuapp.com/api/getposts')
 			.then((response) => {
 				if (response.ok) return response.json();
 			})

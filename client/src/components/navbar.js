@@ -5,7 +5,7 @@ function Navbar() {
 	return (
 		<div className="navbar">
 			<Link to="/" className="home-link">
-				<h1>OpenTutorials</h1>
+				<h1>TutorialRoach</h1>
 			</Link>
 			<ul className="link-group">
 				<Link to="/categories">
