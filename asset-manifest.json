@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jamhacks-project/static/css/main.b7eb9c1a.chunk.css",
-    "main.js": "/jamhacks-project/static/js/main.7e4d4d7c.chunk.js",
-    "main.js.map": "/jamhacks-project/static/js/main.7e4d4d7c.chunk.js.map",
+    "main.js": "/jamhacks-project/static/js/main.b9986317.chunk.js",
+    "main.js.map": "/jamhacks-project/static/js/main.b9986317.chunk.js.map",
     "runtime-main.js": "/jamhacks-project/static/js/runtime-main.4a2dba6a.js",
     "runtime-main.js.map": "/jamhacks-project/static/js/runtime-main.4a2dba6a.js.map",
     "static/js/2.d405329d.chunk.js": "/jamhacks-project/static/js/2.d405329d.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.4a2dba6a.js",
     "static/js/2.d405329d.chunk.js",
     "static/css/main.b7eb9c1a.chunk.css",
-    "static/js/main.7e4d4d7c.chunk.js"
+    "static/js/main.b9986317.chunk.js"
   ]
 }
