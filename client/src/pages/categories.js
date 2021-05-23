@@ -1,9 +1,38 @@
-function Categories() {
-	return (
-		<div className="content">
-			<h1>Categories</h1>
-		</div>
-	);
+import React from 'react';
+import './categories.css';
+
+class Categories extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			posts: [],
+		};
+	}
+
+	componentDidMount = async () => {
+		fetch('http://localhost:5000/api/getposts')
+			.then((response) => {
+				if (response.ok) return response.json();
+			})
+			.then((json) => {
+				this.setState({
+					posts: json.posts,
+				});
+			});
+	};
+
+	render() {
+		return (
+			<div className="content category-grid">
+				<h1>All Posts</h1>
+				<ul className="posts">
+					{this.state.posts.map((listitem) => (
+						<li key={listitem[0]}>{listitem[1]}</li>
+					))}
+				</ul>
+			</div>
+		);
+	}
 }
 
 export default Categories;

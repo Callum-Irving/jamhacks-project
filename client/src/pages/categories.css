@@ -1,0 +1,23 @@
+@import '../index.css';
+
+.posts {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.category-grid {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.posts li {
+	padding: 15px;
+	margin: 50px;
+	border-radius: 10px;
+	background-color: var(--special-bg-color);
+}
