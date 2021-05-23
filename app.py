@@ -2,9 +2,11 @@ import requests
 import os
 from datetime import datetime
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import psycopg2
 
 app = Flask(__name__)
+CORS(app)
 
 profanity_filter_url = "https://neutrinoapi-bad-word-filter.p.rapidapi.com/bad-word-filter"
 api_key = os.environ['PROFANITY_API_KEY']
@@ -31,6 +33,9 @@ def index():
     try:
         data = request.get_json()['content']
     except:
+        print(request)
+        print(request.headers)
+        print(request.get_json())
         error_msg = {"error": "Request not in correct JSON format"}
         return jsonify(error_msg), 400
 
