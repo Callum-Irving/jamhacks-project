@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/jamhacks-project/static/css/main.dafcd807.chunk.css",
-    "main.js": "/jamhacks-project/static/js/main.893e4566.chunk.js",
-    "main.js.map": "/jamhacks-project/static/js/main.893e4566.chunk.js.map",
+    "main.css": "/jamhacks-project/static/css/main.b7eb9c1a.chunk.css",
+    "main.js": "/jamhacks-project/static/js/main.7e4d4d7c.chunk.js",
+    "main.js.map": "/jamhacks-project/static/js/main.7e4d4d7c.chunk.js.map",
     "runtime-main.js": "/jamhacks-project/static/js/runtime-main.4a2dba6a.js",
     "runtime-main.js.map": "/jamhacks-project/static/js/runtime-main.4a2dba6a.js.map",
-    "static/js/2.108e754d.chunk.js": "/jamhacks-project/static/js/2.108e754d.chunk.js",
-    "static/js/2.108e754d.chunk.js.map": "/jamhacks-project/static/js/2.108e754d.chunk.js.map",
+    "static/js/2.d405329d.chunk.js": "/jamhacks-project/static/js/2.d405329d.chunk.js",
+    "static/js/2.d405329d.chunk.js.map": "/jamhacks-project/static/js/2.d405329d.chunk.js.map",
     "index.html": "/jamhacks-project/index.html",
-    "static/css/main.dafcd807.chunk.css.map": "/jamhacks-project/static/css/main.dafcd807.chunk.css.map",
-    "static/js/2.108e754d.chunk.js.LICENSE.txt": "/jamhacks-project/static/js/2.108e754d.chunk.js.LICENSE.txt"
+    "static/css/main.b7eb9c1a.chunk.css.map": "/jamhacks-project/static/css/main.b7eb9c1a.chunk.css.map",
+    "static/js/2.d405329d.chunk.js.LICENSE.txt": "/jamhacks-project/static/js/2.d405329d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4a2dba6a.js",
-    "static/js/2.108e754d.chunk.js",
-    "static/css/main.dafcd807.chunk.css",
-    "static/js/main.893e4566.chunk.js"
+    "static/js/2.d405329d.chunk.js",
+    "static/css/main.b7eb9c1a.chunk.css",
+    "static/js/main.7e4d4d7c.chunk.js"
   ]
 }
