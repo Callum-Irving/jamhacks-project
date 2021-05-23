@@ -7,6 +7,7 @@ import psycopg2
 
 app = Flask(__name__)
 CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 profanity_filter_url = "https://neutrinoapi-bad-word-filter.p.rapidapi.com/bad-word-filter"
 api_key = os.environ['PROFANITY_API_KEY']
@@ -28,6 +29,7 @@ conn = psycopg2.connect(
 
 
 @app.route('/api/createpost', methods=['POST'])
+@cross_origin()
 def index():
     data = ""
     try:
@@ -67,6 +69,7 @@ def index():
 
 
 @app.route('/api/getposts', methods=['GET'])
+@cross_origin()
 def get_posts():
     posts = []
     with conn.cursor() as cur:
